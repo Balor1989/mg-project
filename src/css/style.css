@@ -1,6 +1,8 @@
-body {
-  background-color: aqua;
-}
-h1 {
+.hero-title,
+.hero-description {
   text-align: center;
+}
+.hero-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
