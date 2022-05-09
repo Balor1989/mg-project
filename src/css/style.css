@@ -34,9 +34,12 @@ ul {
 }
 
 .page-header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #24126a;
 }
 
 .logo-link {
@@ -52,7 +55,7 @@ ul {
 .left-nav-link {
   font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 
   color: #ffffff;
 }
@@ -60,7 +63,7 @@ ul {
 .right-nav-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 
   color: rgba(255, 255, 255, 0.8);
 }
@@ -73,3 +76,32 @@ ul {
 .left-nav a:first-child {
   margin-right: 30px;
 }
+
+.inner {
+  height: 100vh;
+  padding-top: 160px;
+  background: linear-gradient(89.85deg, #23196f 0.13%, #180d5b 99.88%);
+}
+
+.hero-box {
+  max-width: 540px;
+}
+
+.hero-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+
+  color: #ffffff;
+}
+
+.hero-description {
+  max-width: 385px;
+  margin-bottom: 55px;
+  font-size: 18px;
+  line-height: 1.33;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+/* #36a7b9 */
