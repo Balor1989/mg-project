@@ -78,7 +78,7 @@ ul {
 }
 
 .inner {
-  min-height: 960px;
+  min-height: 910px;
   height: 100vh;
   padding-top: 160px;
   background: linear-gradient(89.85deg, #23196f 0.13%, #180d5b 99.88%);
@@ -94,7 +94,7 @@ ul {
   position: absolute;
   width: 738px;
   height: 611px;
-  left: 610px;
+  left: 935px;
   top: 59px;
   background-image: url('../img/inner-back.png');
   background-repeat: no-repeat;
@@ -167,8 +167,27 @@ ul {
   color: #ffffff;
 }
 
+.services-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.services-link {
+  width: 164px;
+  height: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(15, 6, 76, 0.45);
+}
+
+.services-link:hover,
+.services-link:focus {
+  background-color: #ffffff;
+}
+
 .services-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .gmail-icon {
@@ -187,8 +206,8 @@ ul {
 }
 
 .mailchimp-icon {
-  width: 110px;
-  height: 28px;
+  width: 164px;
+  height: 82px;
 }
 
 .sendgrid-icon {
