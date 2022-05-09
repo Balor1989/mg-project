@@ -21,7 +21,7 @@ ul {
 }
 
 .container {
-  max-width: 1114px;
+  max-width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -87,7 +87,20 @@ ul {
   max-width: 540px;
 }
 
+.hero-box::after {
+  content: '';
+  position: absolute;
+  width: 738px;
+  height: 611px;
+  left: 610px;
+  top: 59px;
+  background-image: url('../img/inner-back.png');
+  background-repeat: no-repeat;
+}
+
 .hero-title {
+  position: relative;
+  z-index: 2;
   margin-bottom: 25px;
   font-weight: 700;
   font-size: 48px;
